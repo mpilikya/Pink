@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.page-header {
+  min-height: 852px;
+  background-image: url(../img/header_background.png);
+  background-size: cover;
+}
+.top-menu {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.top-menu__logo {
+  margin: 27px 0px 43px 132px;
+}
+.main-nav {
+  float: right;
+  margin: 46px 245px 44px 160px;
+}
+.main-nav__list {
+  min-height: 21px;
+}
+.main-nav__item {
+  float: left;
+  list-style: none;
+  display: block;
+  margin-right: 80px;
+}
+.main-nav__item a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
