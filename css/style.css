@@ -7,6 +7,44 @@
   background-image: url(../img/header_background.png);
   background-size: cover;
 }
+.download-section {
+  min-height: 512px;
+  width: 300px;
+  float: left;
+  margin-top: 137px;
+  margin-left: 148px;
+}
+.download-section__main-text {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin: 0px 43px 64px;
+}
+.download-section__download-btn {
+  color: white;
+  font-size: 21px;
+  border: 2px solid white;
+  border-radius: 36px;
+  padding: 16px 45px;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+}
+.download-section__download-btn:hover {
+  color: black;
+  background-color: white;
+}
+.download-section__logos-section {
+  margin: 67px 6px 57px 47px;
+}
+.download-section__logos-section img {
+  margin-right: 35px;
+}
+.download-section__second-text {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
 .top-menu {
   background-color: rgba(0, 0, 0, 0.3);
 }
